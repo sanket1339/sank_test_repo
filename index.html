@@ -117,7 +117,7 @@
 
   <!-- SECTION ABOUT US STARTS -->
 
-<!-- <section id="about">
+  <!-- <section id="about">
     <div class="row">
       <!-- about us image-->
       <!-- <div class="col-lg-4">
@@ -440,6 +440,29 @@
   <!--  end of contact us -->
 
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCVsvmzRJORd6KdibDtlTInqNeGj1pDF_c",
+    authDomain: "techinnovation-79e4e.firebaseapp.com",
+    projectId: "techinnovation-79e4e",
+    storageBucket: "techinnovation-79e4e.appspot.com",
+    messagingSenderId: "796422588956",
+    appId: "1:796422588956:web:3845693cf442866e276dd9",
+    measurementId: "G-4N0T2RWKG6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 <script>
   var list = document.querySelectorAll(".item a");
 
