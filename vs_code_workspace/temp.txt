@@ -1,0 +1,89 @@
+<!-- <section id="about">
+    <div class="row">
+      <!-- about us image-->
+      <!-- <div class="col-lg-4">
+        <img class="img-fluid img-thumbnail" src="C:\Users\sanke\vs_code_workspace\asset\img\about-us-pic.jpg"
+          alt="Image">
+      </div> -->
+      <!-- about us description -->
+      <div class="col-lg-12">
+        <section class="my-5 py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <h2 class="heading3 text-center fadeInUpSmall grad-border-bottom mb-5"><span class="fs-3 title-who-we-are fw-bold">Who we are</span></h2>
+              </div>
+            </div>
+          </div>
+        
+          <ul id="hexGrid">
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
+                  <h1>Sheet Metal & Plastic Molding</h1>
+                  <p>To create a specialized firm to serve the needs of product development in the area of sheet metal & plastic molding</p>
+                </a>
+              </div>
+            </li>
+        
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
+                  <h1>Design & Process</h1>
+                  <p>Extensive knowledge of product design & manufacturing processes</p>
+                </a>
+              </div>
+            </li>
+        
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
+                  <h1>Established in Aug-2020</h1>
+                  <p>Established in Aug-2020</p>
+                </a>
+              </div>
+            </li>
+        
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt="" />
+                  <h1>Effective Product Cost</h1>
+                  <p>Emphasize on design solutions in order to make a product cost effective during DFM stage</p>
+                </a>
+              </div>
+            </li>
+        
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt="" />
+                  <h1>VSM tool</h1>
+                  <p>Conceptual solution provision for lead time reduction by the way of VSM tool</p>
+                </a>
+              </div>
+            </li>
+        
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
+                  <h1>Consistent in Quality</h1>
+                  <p>Design solution to maintain Quality consistency throughout the product life</p>
+                </a>
+              </div>
+            </li>
+        
+          </ul>
+        
+          <!-- <a id="fork" target="_blank" href="https://github.com/web-tiki/responsive-grid-of-hexagons">Fork on GitHub</a> -->
+        
+        </section>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- section ABOUT US end  -->
