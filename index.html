@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="asset/css/app.css" rel="stylesheet">
   <link href="asset/css/testimonial.css" rel="stylesheet">
-  <link href="asset/css/about-us.css" rel="stylesheet">
   <link href="asset/css/who-we-are.css" rel="stylesheet">
 </head>
 
@@ -23,6 +22,7 @@
         <a class="navbar-brand" href="#">
           <img src="asset\icons\tech-innovation.png" class=".img-responsive" alt="logo">
         </a>
+        <a href="#"><img src="asset\icons\ISO-9001-2015.png" class=".img-responsive" alt="ISO 9001:2015"></a>
         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcol-1"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
               <a class="nav-link" href="#our-service">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="asset\html\products.html">Products</a>
+              <a class="nav-link" onclick="myFunction()" href="C:/Users/Sanket/work/sank_test_repo/products.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#our-mission">Vision and Mission</a>
@@ -135,7 +135,17 @@
             </div>
           </div>
         
-          <ul id="hexGrid">
+           <ul id="hexGrid">
+
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <h1>An ISO 9001:2015 company</h1>
+                  <p>Established in Aug-2020</p>
+                </a>
+              </div>
+            </li>
+
             <li class="hex">
               <div class="hexIn">
                 <a class="hexLink" href="#">
@@ -152,16 +162,7 @@
                   <p>Extensive knowledge of product design & manufacturing processes</p>
                 </a>
               </div>
-            </li>
-        
-            <li class="hex">
-              <div class="hexIn">
-                <a class="hexLink" href="#">
-                  <h1>Established in Aug-2020</h1>
-                  <p>Established in Aug-2020</p>
-                </a>
-              </div>
-            </li>
+            </li> 
         
             <li class="hex">
               <div class="hexIn">
@@ -175,22 +176,22 @@
             <li class="hex">
               <div class="hexIn">
                 <a class="hexLink" href="#">
-                  <h1>VSM tool</h1>
-                  <p>Conceptual solution provision for lead time reduction by the way of VSM tool</p>
-                </a>
-              </div>
-            </li>
-        
-            <li class="hex">
-              <div class="hexIn">
-                <a class="hexLink" href="#">
                   <h1>Consistent in Quality</h1>
                   <p>Design solution to maintain Quality consistency throughout the product life</p>
                 </a>
               </div>
             </li>
+
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="#">
+                  <h1>VSM tool</h1>
+                  <p>Conceptual solution provision for lead time reduction by the way of VSM tool</p>
+                </a>
+              </div>
+            </li>
+            
           </ul>
-        
         </section>
       </div>
     </div>
@@ -449,7 +450,7 @@
   }
 
   function myFunction(){
-    location.replace("asset\html\products.html");
+    location.replace("C:/Users/Sanket/work/sank_test_repo/products.html");
   }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
