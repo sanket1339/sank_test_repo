@@ -121,6 +121,49 @@
 	.hex:nth-child(5n+4){ /* first hexagon of even rows */
 	  margin-left:12%;  /* = width of .hex / 2  to indent even rows */
 	}
-  
   }
+  
+  @media (max-width: 900px) and (min-width:699px) { /* <- 3-2  hexagons per row */
+	#hexGrid{
+	  padding-bottom: 7.4%;
+	}
+	.hex {
+	  width: 50%;
+	  padding-bottom: 15%;
+	}
+	.hex:nth-child(2n+2){ /* first hexagon of even rows */
+	  margin-left:0%;  /* = width of .hex / 2  to indent even rows */
+	}
+  }
+  
+  @media (max-width: 667px) and (min-width:300px){ /* <- 2-1  hexagons per row */
+	.hex {
+	  width: 100%; /* = 100 / 3 */
+	  padding-bottom: 25%;
+	}
+	.hex:nth-child(1n+1){ /* first hexagon of even rows */
+	  margin-left:0%;  /* = width of .hex / 2  to indent even rows */
+	}
+  }
+
+  @media (min-width:1024px) and (max-width: 1366px){ /* <- 5-4  hexagons per row */
+	#hexGrid{
+	  padding-bottom: 7%;
+	  width: 100%;
+	}
+	.hex {
+	  width: 25%; /* = 100 / 4 */
+	  margin-bottom: 1rem;
+	  margin-left:0%;
+	}
+	.hex:nth-child(5n+4){ /* first hexagon of even rows */
+	  margin-left:12%;  /* = width of .hex / 2  to indent even rows */
+	}
+  }
+
+  
+
+
+
+
   
